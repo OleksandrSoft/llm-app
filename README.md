@@ -64,11 +64,11 @@ llm "Five cute names for a pet penguin"
 ```
 Read the [usage instructions](https://llm.datasette.io/en/stable/usage.html) for more.
 
-## Installing a model that runs on your own machine
+## Installing a model
 
-[LLM plugins](https://llm.datasette.io/en/stable/plugins/index.html) can add support for alternative models, including models that run on your own machine.
+[LLM plugins](https://llm.datasette.io/en/stable/plugins/index.html) can add support for alternative models, including models that run on the machine.
 
-To download and run Mistral 7B Instruct locally, you can install the [llm-gpt4all](https://github.com/simonw/llm-gpt4all) plugin:
+To download and run Mistral 7B Instruct locally, install the [llm-gpt4all](https://github.com/simonw/llm-gpt4all) plugin:
 ```bash
 llm install llm-gpt4all
 ```
